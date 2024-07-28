@@ -8,4 +8,4 @@
 
 . *random_shift.py*: Random shifting of images and corresponding XML annotations (Sec 2.1.2). 
 
-. *npcnn.py*: Non-pretrained CNN-based object detection model (Sec. 3.5).
+. *npcnn.py*: Code for non-pretrained CNN-based object detection model (Sec. 3.5).

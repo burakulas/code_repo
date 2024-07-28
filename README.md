@@ -1,4 +1,4 @@
-# Files in the repository:#
+# Files in the repository: #
 
 . *det_synth_lc.sh*: Detached eclipsing binary light curve construction (Sec. 2.1.1).
 

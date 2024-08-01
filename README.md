@@ -8,4 +8,6 @@
 
 . *3_random_shift.py*: Random shifting of images and corresponding XML annotations (Sec 2.1.2). 
 
-. *4_npcnn.py*: Code for non-pretrained CNN-based object detection model (Sec. 3.5).
+. *4_npcnn.py*: Non-pretrained CNN-based object detection model (Sec. 3.5).
+
+. *5_detocs_k.py*: Detection on short cadence Kepler data (Sec. 4).

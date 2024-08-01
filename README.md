@@ -11,3 +11,7 @@
 . *4_npcnn.py*: Non-pretrained CNN-based object detection model (Sec. 3.5).
 
 . *5_detocs_k.py*: Detection on short cadence Kepler data (Sec. 4).
+
+### Detection on *Kepler* Eclipsing Binaries ###
+
+ [*kepler_ebs_sample.csv*](https://github.com/burakulas/detocs/blob/main/assets/kepler_ebs_sample.csv) is a sample that the code can read as input. It creates a folder with the timestamp in the name and moves the images with annotations there. A summary file per target is also created to check the confidence values. Run by `python detocs_k.py`

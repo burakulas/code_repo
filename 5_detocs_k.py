@@ -95,7 +95,7 @@ def detect_objects(image):
     with open("labelmap.pbtxt", 'r') as f:
       labels = [line.strip() for line in f.readlines()]
 
-    interpreter = tf.lite.Interpreter(model_path="SSD_detect.tflite")
+    interpreter = tf.lite.Interpreter(model_path="assets/SSD_detect.tflite")
     interpreter.allocate_tensors()
     input_details = interpreter.get_input_details()
     output_details = interpreter.get_output_details()

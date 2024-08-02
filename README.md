@@ -10,5 +10,5 @@
 
 5. *npcnn.py*: Non-pretrained CNN-based object detection model (Sec. 3.5).
 
-6. *detocs_k.py*: Detection on short cadence Kepler data. A working sample of the input file is given in *assets/kepler_ebs_sample.csv* (Sec. 4).
+6. *detocs_k.py*: Detection on short cadence Kepler data. A working sample of the input file is given in [*assets/kepler_ebs_sample.csv*](https://github.com/burakulas/code_repo/blob/main/assets/kepler_ebs_sample.csv) (Sec. 4).
 

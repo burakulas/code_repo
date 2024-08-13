@@ -96,4 +96,4 @@ cd ../lcplay/
 
 done
 
-done < det_parameters.lst # To acces the list: https://drive.google.com/file/d/1X2VGLER6RG90VBHoPPqyXLRDoC6BeZRX/view?usp=sharing
+done < det_parameters.lst # To acces the list: https://drive.google.com/file/d/1iJaQgg18MHhnG1papI-41QEZURFzw7b1/view?usp=sharing

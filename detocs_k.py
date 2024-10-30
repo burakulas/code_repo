@@ -34,7 +34,6 @@ base_url = "https://mast.stsci.edu/api/v0.1/Download/file?uri="
 dir_name = "detected" + "_" + datetime.today().strftime('%Y-%m-%d_%H-%M')
 os.mkdir(dir_name)
 
-obslist = []
 
 
 def get_observation_ids(target_id):
@@ -49,6 +48,7 @@ def get_observation_ids(target_id):
       obs_ids = obs_table['obsid']
       data_products = Observations.get_product_list(obs_table)
       lc_products = data_products[(data_products['productSubGroupDescription'] == 'SLC')]
+      obslist = []
       for rw in np.unique(lc_products['obsID']):
         all_false = np.all(rw == False)
         if not all_false:
